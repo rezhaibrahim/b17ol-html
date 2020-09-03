@@ -194,9 +194,10 @@ a{
 
 .navbar {
     display: flex;
-    padding: 0 150px;
-    width: 100%;
+    padding: 0px 100px 50px;
     height: 100px;
+    align-items: center;
+    box-shadow: 0px 6px 40px rgb(173, 173, 173,0.25);
 }
 .navbar .brand .img{
     width: 119px;
@@ -205,7 +206,7 @@ a{
 
 .navbar .search-wrapper input{
     width: 507px;
-    height: 48px;
+    height: 40px;
     border-radius: 23px;
     padding:0 20px;
     box-sizing: border-box;
@@ -221,7 +222,7 @@ a{
 .navbar .search-wrapper .input-wrapper img{
     position: absolute;
     right: 10px;
-    top: 15px;
+    top: 10px;
     transform: translate(-50%);
 }
  
@@ -236,14 +237,13 @@ a{
 .navbar .nav {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    padding-left: 5%;
+    padding-right: 0%;
 }
 
 .navbar .nav .img{
     display: flex;
-    width: 100px;
-    height: 36px;
-    justify-content: center;
-    align-items: center;
-    margin: 5px
+    width: 25px;
+    height: 25px;
+    margin-left: 20%;
 }
